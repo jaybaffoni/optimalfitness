@@ -1,0 +1,54 @@
+<app-panel>
+<!--  <img class="bg-image" src="./assets/images/BRYANDOOTEMPOSPRINT.jpg">-->
+  <div style="overflow: hidden; position:relative; max-height: 100vh">
+    <video autoplay [muted]="true" loop style="min-height: 100vh; min-width: 100%; width: auto; overflow: hidden">
+      <source src="./assets/images/video1.mov" type="video/mp4" />
+    </video>
+    <div style="position: absolute; top: 0; left: 0; background: #00000080; height: 100vh; width: 100%; display: grid; place-items: center;">
+      <div style="width: 100%; display: grid; place-items: center;">
+        <img src="./assets/images/optimal-logo-white.svg" class="logo-img"/>
+        <p class="motto-text">Professionals in Health & Human Performance</p>
+        <button class="btn effect white-button" (click)="bookAppt()">Book an Appointment</button>
+      </div>
+    </div>
+  </div>
+</app-panel>
+<app-two-column-panel
+  title="Our Mission"
+  subtitle="Insert amazingly inspirational mission statement."
+  button1="How it Started"
+  button2="Our Philosophy"
+  imgUrl="../../../assets/images/donaldpu.JPG">
+</app-two-column-panel>
+<app-panel color="grey"></app-panel>
+<app-two-column-panel
+  title="Our Mission"
+  subtitle="Insert amazingly inspirational mission statement."
+  button1="How it Started"
+  button2="Our Philosophy"
+  imgUrl="../../../assets/images/donaldpu.JPG"
+  imgLeft="true">
+</app-two-column-panel>
+<app-panel color="grey">
+  <div  style="padding: 50px;">
+    <h1 class="panel-title">Our Mission</h1>
+    <h4 class="panel-subtitle">Subtitle!</h4>
+    <a href="">How we got started</a>
+    <a href="">Our Philosophy</a>
+    <img style="width: 350px; height: auto" src="./assets/images/donaldpu.JPG" />
+  </div>
+</app-panel>
+<app-panel color="grey">
+  <img src="" />
+  <h1>A team of great Trainers</h1>
+  <div>Bryan Profile</div>
+  <div>Laurie Profile</div>
+  <a href="">Meet the rest of the team</a>
+</app-panel>
+<app-panel>
+  <div>
+    <h1>Locations (Slideshow)</h1>
+    <a href="">Additional info (for each)</a>
+    <img src="" />
+  </div>
+</app-panel>
